@@ -1,0 +1,119 @@
+html, body {
+
+    background-color: black;
+    background: linear-gradient(#74B6CC, #2688c6, #7b44cd); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: "Quicksand";
+    color: white;
+    font-size: 15px;
+
+
+
+}
+
+button{
+    font-family: Quicksand;
+    cursor: default;
+    width: 190px;
+    height: 40px;
+    color: black;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    padding: 6px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s; 
+    transition: 0.5s;
+}
+
+input {
+	height: 30px;
+	width: 60px;
+	border: none;
+	border-bottom: 1px dashed white;
+	background-color: rgba(0,0,0,0);
+	color: white;
+	font-size: 20px;
+	text-align: right;
+
+}
+
+button:hover, input:hover{
+	background-color: rgba(0,255,0,0.8);
+    -webkit-transition: 5s;
+    -o-transition: 5s;
+    -moz-transition: 5s; 
+    transition: 1s;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    margin-bottom: 80px;
+    -webkit-box-shadow: 0px 0px 81px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 81px -16px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 81px -16px rgba(0,0,0,0.75);
+    z-index: 5;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s; 
+    transition: 0.5s;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    vertical-align: middle;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s; 
+    transition: 0.5s;
+}
+
+tr{
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s; 
+    transition: 0.5s;
+}
+
+tr:hover {
+    background-color: rgba(0,0,0,0.3);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s; 
+    transition: 0.5s;
+}
+
+h3{
+    font-size: 40px;
+    padding-bottom: 25px;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#but_addToCart {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s; 
+    transition: 0.5s;
+}

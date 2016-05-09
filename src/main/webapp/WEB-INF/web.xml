@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>SpringDispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>WEB-INF/app-config.xml</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SpringDispatcher</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+	<servlet-name>default</servlet-name>
+	<url-pattern>*.css</url-pattern>
+    </servlet-mapping>
+    <!--    <servlet>
+        <servlet-name>AccessDAO</servlet-name>
+        <servlet-class>com.mycompany.eshop.dao.listaProdusePromotionale</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CartBean</servlet-name>
+        <servlet-class>com.mycompany.eshop.Classes.CartBean</servlet-class>
+    </servlet>-->
+    <!--    <servlet>
+        <servlet-name>CartController</servlet-name>
+        <servlet-class>com.mycompany.eshop.CartController</servlet-class>
+    </servlet>-->
+    <!--    <servlet>
+        <servlet-name>CartItemBean</servlet-name>
+        <servlet-class>com.mycompany.eshop.Classes.CartItemBean</servlet-class>
+    </servlet>-->
+    <!--    <servlet>
+        <servlet-name>CreateUserServlet</servlet-name>
+        <servlet-class>com.mycompany.eshop.CreateUserServlet</servlet-class>
+    </servlet>-->
+    <!--    <servlet>
+        <servlet-name>ListaProduseServ</servlet-name>
+        <servlet-class>com.mycompany.eshop.ListaProduseServ</servlet-class>
+    </servlet>-->
+    <!--    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.mycompany.eshop.LoginServlet</servlet-class>
+    </servlet>-->
+    <!--    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.mycompany.eshop.Logout</servlet-class>
+    </servlet>-->
+    <!--    <servlet>
+        <servlet-name>Product</servlet-name>
+        <servlet-class>com.mycompany.eshop.Classes.Product</servlet-class>
+    </servlet>-->
+    <!--    <servlet>
+        <servlet-name>PromotiiServlet</servlet-name>
+        <servlet-class>com.mycompany.eshop.PromotiiServlet</servlet-class>
+    </servlet>-->
+    <!--    <servlet>
+        <servlet-name>SessionCartSavingListener</servlet-name>
+        <servlet-class>com.mycompany.eshop.Classes.SessionCartSavingListener</servlet-class>
+    </servlet>-->
+    <!--    <servlet>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <servlet-class>com.mycompany.eshop.UpdateUserServlet</servlet-class>
+    </servlet>-->
+    <!--    <servlet>
+        <servlet-name>User</servlet-name>
+        <servlet-class>com.mycompany.eshop.Classes.User</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UserDAO</servlet-name>
+        <servlet-class>com.mycompany.eshop.dao.UserDAO</servlet-class>
+    </servlet>-->
+    <!--    <servlet>
+        <servlet-name>UsersListServlet</servlet-name>
+        <servlet-class>com.mycompany.eshop.UsersListServlet</servlet-class>
+    </servlet>-->
+    <!--    <servlet-mapping>
+        <servlet-name>AccessDAO</servlet-name>
+        <url-pattern>/AccessDAO</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CartBean</servlet-name>
+        <url-pattern>/CartBean</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet-mapping>
+        <servlet-name>CartController</servlet-name>
+        <url-pattern>/CartController</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet-mapping>
+        <servlet-name>CartItemBean</servlet-name>
+        <url-pattern>/CartItemBean</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet-mapping>
+        <servlet-name>CreateUserServlet</servlet-name>
+        <url-pattern>/CreateUserServlet</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet-mapping>
+        <servlet-name>ListaProduseServ</servlet-name>
+        <url-pattern>/ListaProduseServ</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet-mapping>
+        <servlet-name>Product</servlet-name>
+        <url-pattern>/Product</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet-mapping>
+        <servlet-name>PromotiiServlet</servlet-name>
+        <url-pattern>/PromotiiServlet</url-pattern>
+    </servlet-mapping>-->
+<!--    <servlet-mapping>
+        <servlet-name>SessionCartSavingListener</servlet-name>
+        <url-pattern>/SessionCartSavingListener</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet-mapping>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <url-pattern>/UpdateUserServlet</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet-mapping>
+        <servlet-name>User</servlet-name>
+        <url-pattern>/User</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserDAO</servlet-name>
+        <url-pattern>/UserDAO</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet-mapping>
+        <servlet-name>UsersListServlet</servlet-name>
+        <url-pattern>/UsersListServlet</url-pattern>
+    </servlet-mapping>-->
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+<!--    <listener>
+        <listener-class>
+            com.mycompany.eshop.SessionCartSavingListener
+        </listener-class>
+    </listener>-->
+    <welcome-file-list>
+        <welcome-file>/</welcome-file>
+    </welcome-file-list>
+</web-app>
